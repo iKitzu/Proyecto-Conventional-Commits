@@ -6,12 +6,15 @@
     padding: 0;
 }
 
-.wrapper {
-    
+.fsection {
+    margin-top: 10%;
+    margin-left: 8%;
 }
 
-.fsection {
-
+.tittle {
+    margin-top: 10%;
+    margin-left: 8%;
+    font-size: 60px;
 }
 
 .boton-explorar {
