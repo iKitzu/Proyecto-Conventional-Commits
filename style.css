@@ -7,14 +7,18 @@
 }
 
 .fsection {
-    margin-top: 10%;
-    margin-left: 8%;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .tittle {
-    margin-top: 10%;
-    margin-left: 8%;
     font-size: 60px;
+}
+
+.slogan {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 16px;
 }
 
 .boton-explorar {
@@ -63,6 +67,35 @@
 }
 
 .contenedor-ssection {
+    text-align: center;
+}
+
+.ssection-titulo {
+    font-size: 24px;
+}
+
+.ssection-mslogan {
+    font-size: 14px;
+}
+
+.contenedor-tsection {
+    background-color: rgb(218, 176, 98);
+    border-radius: 32px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    margin: 0 auto;
+    padding: 20px;
+
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 70%;
+}
+
+.contenedor-tsection {
     text-align: center;
 }
 
