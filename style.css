@@ -21,6 +21,32 @@
     font-size: 16px;
 }
 
+.fake-slogan,
+.fake-slogan2 {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.fake-slogan{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 55%;
+
+    background-color: burlywood;
+    width: 350px;
+    height: 350px;
+}
+
+.fake-slogan2 {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 70%;
+
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
+
 .boton-explorar {
     background-color: saddlebrown;
 
@@ -35,7 +61,7 @@
 }
 
 .boton-explorar:hover {
-    background-color: rgb(162, 162, 162);
+    background-color: burlywood;
     color: black;
 
 }
