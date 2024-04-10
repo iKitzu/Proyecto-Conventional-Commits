@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*Primera Parte*/
 .fsection {
     margin-top: 5%;
     margin-left: 5%;
@@ -44,7 +44,7 @@
     text-align: left;
     max-width: 400px;
 }
-
+/*Segunda Parte*/
 .contenedor-ssection {
 /*
     display: flex;
@@ -78,31 +78,31 @@
     font-size: 14px;
 }
 
+/*Tercera Parte*/
+
 .contenedor-tsection {
-    background-color: rgb(218, 176, 98);
+    background-color: rgb(49, 35, 25);
     border-radius: 32px;
-
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
-
     margin: 0 auto;
     padding: 20px;
-
-
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 70%;
-}
-
-.contenedor-tsection {
+    width: 90%;
+    color: white;
     text-align: center;
 }
 
-.ssection-titulo {
-    font-size: 24px;
+.fake-image {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 10px; 
+    margin-bottom: 10px; 
 }
 
-.ssection-mslogan {
+.tsection-mslogan {
     font-size: 14px;
 }
